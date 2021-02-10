@@ -2,7 +2,7 @@
   "name": "circleci-codeclimate",
   "version": "1.0.0",
   "description": "Accompanying repository for the Integrating Code Climate testing with Circle CI article",
-  "main": "",
+  "main": "index.js",
   "scripts": {
     "test": "nyc mocha",
     "cover": "nyc --reporter=lcov --reporter=text mocha"
@@ -19,9 +19,12 @@
   },
   "homepage": "https://github.com/emabishi/circleci-codeclimate#readme",
   "devDependencies": {
-    "chai": "^4.2.0",
-    "eslint": "^6.6.0",
-    "mocha": "^6.2.2",
+    "chai": "^4.3.0",
+    "eslint": "^6.8.0",
+    "mocha": "^6.2.3",
     "nyc": "^14.1.1"
+  },
+  "directories": {
+    "test": "test"
   }
 }
